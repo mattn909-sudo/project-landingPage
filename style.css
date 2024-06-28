@@ -1,8 +1,13 @@
 body {
     margin: 0;
     background: #eee;
-    font-family: Besley, serif;
-  }
+    font-family: Helvetica, serif;
+}
+
+img{
+    height: auto;
+    width: 300px;
+}
 
 ul{
     list-style-type: none;
@@ -33,4 +38,20 @@ a{
     flex:1;
     padding: 20px;
     margin: 0;
+}
+
+.welcomeSection{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+}
+.welcomeHeader{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+.subtext{
+    font-size: 18px;
+    color: #E5E7Eb;
 }
