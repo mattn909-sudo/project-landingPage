@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Besley, serif;
+  }
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    padding-right: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 300px;
+}
+
+.header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    padding: 20px;
+    margin: 0;
+}
